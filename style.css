@@ -1,0 +1,84 @@
+family-fonts{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* inizio navbar */
+
+.nav-height{
+    height: 70px;
+    width: 100%;
+}
+.navbar-color{
+    background-color: #b2b8c855;
+}
+
+/* fine navbar */
+
+/* inizio header */
+header{
+    padding-top: 50px;
+}
+.row-header{
+    padding-top: 40px;
+}
+/* fine header */
+
+/* inizio card */
+.main-card{
+    height: 680px;
+    width: 1800px;
+    padding-top: 15px;
+    padding-left: 160px;
+}
+.card-custom{
+    height: 600px;
+    width: 400px;
+    /* position: relative; */
+}
+.img-card{
+    height: 400px;
+    width: 400px;
+}
+/* fine card */
+
+/* sezione video */
+.videos {
+    position: relative;
+    /* background-color: black; */
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+.videos video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.videos .container {
+  position: relative;
+  z-index: 2;
+}
+
+.videos .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+/* fine sezione video */
