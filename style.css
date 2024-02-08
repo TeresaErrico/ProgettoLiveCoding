@@ -41,6 +41,12 @@ header{
 }
 /* fine card */
 
+.div-1{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 40px;
+}
+
 /* sezione video */
 .videos {
     position: relative;
@@ -82,3 +88,33 @@ header{
   z-index: 1;
 }
 /* fine sezione video */
+.row-div{
+    height: 500px;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 370px;
+}
+/* inizio footer */
+footer{
+    height: 430px;
+    width: 100%;
+    background-color: #b2b8c855;
+    padding-top: 40px;
+    padding-left: 150px;
+}
+.btn-footer{
+    width: 160px;
+    height: 70px;
+    background: transparent; 
+    border-radius: 30px;
+    color: black;
+    transition: 2s;
+    border: 2px solid #32685C;
+}
+.btn-footer-hover{
+    color: black;
+    background-color: #487C7F;
+    border: 2px solid #32685C;
+}
+
+/* fine footer */
