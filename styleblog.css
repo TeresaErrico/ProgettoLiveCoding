@@ -1,0 +1,318 @@
+family-fonts{
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+}
+:root{
+    --Blu: #3F7373;
+    --Marrone: #A68F72;
+    --Navbar: #C7CCD9;
+    --Marrone1: #732B1A;
+}
+.txt-Blu{
+    background: var(--Blu);
+}
+.txt-Marrone{
+    background: var(--Marrone);
+}
+.txt-Marrone1{
+    background: var(--Marrone1);
+}
+
+/* inizio navbar */
+
+.navbar-custom{
+    width: 100%;
+    height: 80px;
+    background: var(--Navbar);
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: var(--Blu);
+}
+.h1-navbar{
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.h1-navbar:hover{
+    color: var(--Blu);
+}
+/* fine navbar */
+ 
+/* inizio immagine di background */
+
+.img-1{
+    width: 100%;
+    height: 1200px; 
+}
+
+/* fine immagine di background */
+
+/* inizio header */
+
+header{
+    padding-top: 50px;
+    background-color: #a68f7228;
+}
+.row-header{
+    padding-top: 40px;
+}
+h1{
+    font-family: 'Lora', serif;
+}
+.p-font{
+    font-family: 'Roboto', sans-serif;
+}
+.i-color{
+    color:var(--Blu) ;
+}
+.i-header{
+    padding-left: 900px;
+    color: var(--Blu);
+    padding-bottom: 20px;
+}
+
+.h2-header{
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--Marrone1);
+}
+
+/* fine header */
+
+/* inizio carousel */
+
+.h5carousel{
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: white;
+    text-align:center;
+}
+.carousel-indicators [data-bs-target]{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--Marrone);
+    margin: 10px;
+}
+/* fine carousel */
+
+ /* inizio card */
+
+.i-card{
+    color: var(--Blu);
+    padding-left: 550px;
+}
+.h2-card{
+    text-align: center;
+    padding-right: 430px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--Marrone1);
+}
+.main-card{
+    height: 1300px;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 350px;
+    background-color: #a68f7228;
+}
+.card-custom{
+    height: 400px;
+    width: 400px;
+}
+.row-card{
+    padding-left: 200px;
+}
+.i-card2{
+    color: var(--Blu);
+}
+.text-div{
+    text-align: center;
+    padding-right: 300px;
+}
+.i-section{
+    padding-left: 580px;
+    color: var(--Blu);
+}
+.h3-main{
+    padding-left: 80px;
+}
+.p-main{
+    padding-left: 80px;
+}
+.img-main{
+    padding-left: 40px;
+}
+
+/* fine card */
+
+/* sezione video */
+.h2-video{
+    font-family: 'Bebas Neue', sans-serif;
+    color: var(--Marrone1);
+    padding-top: 20px;
+}
+.i-video{
+    padding-left: 930px;
+    color: var(--Blu);
+}
+.videos {
+    position: relative;
+    /* background-color: black; */
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    
+  }
+.videos video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.videos .container {
+  position: relative;
+  z-index: 2;
+}
+
+.videos .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+/* fine sezione video */
+
+/* inizio footer */
+footer{
+    height: 460px;
+    width: 100%;
+    background-color: var(--Navbar);
+    padding-top: 40px;
+    padding-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-footer{
+    width: 160px;
+    height: 70px;
+    background: transparent; 
+    border-radius: 30px;
+    color: black;
+    transition: 2s;
+    border: 2px solid #32685C;
+}
+.btn-footer:hover{
+    color: black;
+    background-color: #487C7F;
+    border: 2px solid #32685C;
+}
+.footer-link{
+    color: white;
+}
+.footer-link:hover{
+    color: var(--Blu);
+}
+/* fine footer */
+
+
+
+/* INIZIO MEDIA QUERY */
+
+@media screen and (max-width: 576px){
+    .img-1{
+        width: 100%;
+        height: 500px;
+     }
+    .h2-card{
+        width: 100%;
+        padding-right: 0px;
+        position: relative;
+        right: 180px;
+    }  
+
+    .i-header{
+        position: relative;
+        right: 650px;
+    }
+    .i-card{
+        position: relative;
+        right: 650px;
+    }
+    .card-custom{
+        height: 400px;
+        position: relative;
+        right: 300px;
+      }
+      .main-card{
+          height: 4400px;
+    }
+    .i-section{
+        position: relative;
+        right: 690px;
+    }
+    .text-div{
+        position: relative;
+        top: 20px;
+        right: 180px;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        }  
+    .h3-main{
+        position: relative;
+        right: 220px;
+        width: 100%;
+        bottom: 20px;    
+}
+    .p-main{
+        position: relative;
+        right: 220px;
+        width: 100%;
+        bottom: 20px; 
+}
+    .img-main{
+        position: relative;
+        right: 350px;
+        width: 500px;
+        bottom: 50px;
+}
+    .i-video{
+        position: relative;
+        right: 690px;
+}
+    footer{
+    height: 800px;
+    width: 100%;
+    background-color: #a68f7228;
+    position: relative;
+    right: 0px;
+    
+}
+
+
+}
+
+
+
+
+
+
+
+/* FINE MEDIA QUERY */
